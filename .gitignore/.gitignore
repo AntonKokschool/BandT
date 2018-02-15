@@ -3,6 +3,5 @@
 # Ignore folowing project files      #
 ######################################
 
-*.iml
 *.xml
 *.idea
