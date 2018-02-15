@@ -7,7 +7,6 @@ public class ReadFile {
     public static String readFile()
     {
         String bestandsnaam = "D:\\OneDrive - Hanzehogeschool Groningen\\Thema 2.3\\B&T\\Week 1\\nederlandsetekst.txt";
-        //System.out.printf("Hello World!");
         try {
             String string = new String(Files.readAllBytes(Paths.get(bestandsnaam)));
             // do something with everything string
